@@ -1,0 +1,48 @@
+# === Vivado Generated Files ===
+*.jou
+*.log
+*.str
+*.xpr
+*.xsa
+*.ltx
+*.wcfg
+*.wdb
+*.pb
+
+# === Build Outputs ===
+*.bit
+*.bin
+*.mcs
+*.prm
+
+# === Critical Directories (MUST IGNORE) ===
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# === Block Design Generated ===
+*.srcs/sources_1/bd/*/hdl/
+*.srcs/sources_1/bd/*/synth/
+*.srcs/sources_1/bd/*/sim/
+
+# === SDK/Vitis ===
+.sdk/
+.metadata/
+
+# === Reports (choose based on preference) ===
+*.rpt
+utilization_*.txt
+timing_*.txt
+
+# === OS/Editor Files ===
+.DS_Store
+Thumbs.db
+*~
+*.bak
+*.swp
+
+# === Optional: Selectively allow important files ===
+# !important_config.xml
