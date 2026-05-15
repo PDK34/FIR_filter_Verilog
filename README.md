@@ -11,7 +11,7 @@ Verified through RTL simulation in Vivado and a Python reference model.
 │   ├── block_digram.png  
 │   ├── py_comparison.png    
 │   ├── vivado_waveform.png     
-│
+│   └── arch_overview.jpg
 ├── rtl/
 │   ├── symmetricFIR.v    
 │   ├── coeff_loader.v    
