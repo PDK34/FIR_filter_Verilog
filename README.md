@@ -52,6 +52,8 @@ Verified through RTL simulation in Vivado and a Python reference model.
 ## Architecture
 The complete FIR filter is implemented as a top-level module (symmetricFIR) that instantiates four sub-modules connected in a pipeline chain. The block diagram shows the flow from coefficient loading through sample delay, pre-addition, and finally the pipelined multiply-accumulate stage.
 
+![alt text](./docs/arch_overview.jpg)
+
 ### Block Diagram
 ![alt text](./docs/block_digram.png)
 
